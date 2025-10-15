@@ -11,14 +11,14 @@
             "id": "763a113b23376751",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Doc/云原生八股文/ETCD.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "ETCD"
             }
           }
         ]
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Doc/云原生八股文/K8S Operator的Reconcile原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for K8S Operator的Reconcile原理"
             }
           },
           {
@@ -112,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Doc/云原生八股文/K8S Operator的Reconcile原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from K8S Operator的Reconcile原理"
             }
           },
           {
@@ -140,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Doc/云原生八股文/K8S Operator的Reconcile原理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of K8S Operator的Reconcile原理"
             }
           },
           {
@@ -179,14 +182,19 @@
   },
   "active": "763a113b23376751",
   "lastOpenFiles": [
-    "Doc/纸箱玩PVE.md",
-    "Doc/云原生八股文/K8S Operator的Reconcile原理.md",
-    "Doc/Java八股文/2.高并发.md",
-    "Doc/Java八股文/1.基础.md",
-    "profile.jpg",
-    "Doc/Java八股文",
+    "Doc/大数据八股文/Spark.md",
+    "Doc/云原生八股文/ETCD.md",
     "Doc/云原生八股文/K8S基础.md",
+    "Doc/Java八股文/1.基础.md",
+    "Doc/Java八股文/3.MySQL.md",
+    "README.md",
+    "Doc/大数据八股文",
     "Doc/Untitled.md",
+    "profile.jpg",
+    "Doc/云原生八股文/K8S Operator的Reconcile原理.md",
+    "Doc/纸箱玩PVE.md",
+    "Doc/Java八股文/2.高并发.md",
+    "Doc/Java八股文",
     "Doc/云原生八股文",
     "Doc",
     "纸箱玩PVE"
