@@ -20,14 +20,12 @@ flowchart TD
     I --> J[“结束本次Reconcile<br>（返回成功或稍后重试）”]
 ```
 #### 步骤 1：触发事件
-
 Reconcile 循环可以由以下事件触发：
 - **自定义资源（CR）的变化**：用户创建、更新或删除了一个 CR（比如 `kubectl apply -f my-app.yaml`）。这是最常见的触发方式。
 - **被管理资源的变化**：Operator 所管理的**下游资源**（如 Pod、Deployment）发生了变化（例如，一个 Pod 意外崩溃了）。Operator 需要感知到这种变化并做出反应。
 - **定时触发**：有些 Operator 会定期触发 Reconcile，以确保系统状态的健康，即使没有外部事件发生。
 - **外部事件**：例如，从外部系统发出的 webhook 通知。
 在 Controller-Runtime 框架中，你通过 `Watch` 来注册对这些事件的监听。
-
 #### 步骤 2：获取期望状态
 Operator 从 API 服务器中检索到触发此次 Reconcile 的**自定义资源**，并解析其中定义的期望状态。
 #### 步骤 3：检查实际状态
