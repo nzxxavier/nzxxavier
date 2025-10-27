@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Doc/云原生八股文/K8S Operator的Reconcile原理.md",
+                "file": "Doc/云原生八股文/ETCD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from K8S Operator的Reconcile原理"
+              "title": "Outgoing links from ETCD"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Doc/云原生八股文/K8S Operator的Reconcile原理.md",
+                "file": "Doc/云原生八股文/ETCD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of K8S Operator的Reconcile原理"
+              "title": "Outline of ETCD"
             }
           },
           {
@@ -180,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "763a113b23376751",
+  "active": "f91aee993c78dce3",
   "lastOpenFiles": [
     "Doc/大数据八股文/Spark.md",
     "Doc/云原生八股文/ETCD.md",
